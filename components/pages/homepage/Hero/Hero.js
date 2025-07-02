@@ -18,15 +18,17 @@ function Hero() {
       <motion.h1
         style={{ y: textY }}
         className=" 
-      font-thunderbold text-[76px] lg:text-[15.104vw] text-[#EDD761] z-[8] absolute lg:top-[10vw] top-52 scroll-smooth">
-        YOGYAKARTA
+      font-thunderbold text-[76px] lg:text-[15.104vw] text-[#EDD761] z-[8] absolute lg:top-[10vw] top-52 scroll-smooth"
+      >
+        MARGA
       </motion.h1>
 
       <div className="absolute bottom-[10vw] z-[1] flex flex-col items-center justify-center scroll-smooth">
         <div className="flex flex-col justify-center items-center">
           <h1
             className=" 
-          font-thunder text-2xl lg:text-[2.5vw] text-[#EDD761] -z-[1]">
+          font-thunder text-2xl lg:text-[2.5vw] text-[#EDD761] -z-[1]"
+          >
             GULIR KE BAWAH
           </h1>
           <Image
@@ -36,7 +38,8 @@ function Hero() {
             width={3}
             height={3}
             alt="Picture of the author"
-            className="flex justify-center w-8 lg:w-[3vw]"></Image>
+            className="flex justify-center w-8 lg:w-[3vw]"
+          ></Image>
         </div>
       </div>
 
@@ -90,7 +93,8 @@ function Hero() {
           backgroundPosition: "bottom",
           backgroundRepeat: "no-repeat",
           backgroundSize: "100vw",
-        }}></div>
+        }}
+      ></div>
       <div className="absolute bottom-0 z-[20] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
     </div>
   );
