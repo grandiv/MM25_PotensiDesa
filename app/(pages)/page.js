@@ -1,9 +1,9 @@
 "use client";
 
-import BudayaAlam from "@/components/pages/homepage/BudayaAlam/BudayaAlam";
-import Hero from "@/components/pages/homepage/Hero/Hero";
-import Deskripsi from "@/components/pages/homepage/BudayaAlam/Deskripsi";
-import KotaKabupaten from "@/components/pages/homepage/KotaKabupaten/KotaKabupaten";
+import BudayaAlam from "@/components/pages/marga/BudayaAlam/BudayaAlam";
+import Hero from "@/components/pages/marga/Hero/Hero";
+import Deskripsi from "@/components/pages/marga/BudayaAlam/Deskripsi";
+import KotaKabupaten from "@/components/pages/marga/KotaKabupaten/KotaKabupaten";
 
 export default function Home() {
   return (

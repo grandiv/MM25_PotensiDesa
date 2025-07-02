@@ -1,64 +1,103 @@
-import { React, useEffect } from "react";
+import { React, useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
-import Aos from "aos";
-import "aos/dist/aos.css";
-import { aosDuration, getDelay } from "../../../allPage/configs/aosConfig";
 
-export default function Hero() {
-  useEffect(() => {
-    Aos.init();
-  }, []);
-
-  const handleClick = () => {
-    window.scrollTo({
-      top: window.innerHeight,
-      behavior: "smooth",
-    });
-  };
-
+function Hero() {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start start", "end start"],
+  });
+  const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
+  // const background1Y = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+  // const background2Y = useTransform(scrollYProgress, [0, 1], ["0%", "65%"]);
+  // const background3Y = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
   return (
-    <div
-      className="relative w-full items-center justify-center aspect-[360/790] flex flex-col md:aspect-[768/1024] lg:aspect-[1920/1080] bg-[url('https://utfs.io/f/888e3600-b5a1-4bc6-9f9c-c095f0dd94df-lpnarm.svg')] md:bg-[url('https://utfs.io/f/699666ce-1d5c-4bec-9226-dcfaec0f981f-hg5n0j.svg')] bg-cover lg:bg-cover lg:bg-[url('https://utfs.io/f/273eda10-1776-417b-88f4-4f07fe3d7025-rc0ftw.svg')] bg-bottom max-2xl:h-screen"
-      data-aos="fade-up"
-      data-aos-duration={aosDuration}
-      data-aos-delay={getDelay({ turn: 0 })}
-    >
-      <div className="absolute bottom-0 z-[2000] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[6vw]"></div>
-      <h1
-        className="font-thunderbold text-[24.444vw] md:text-[21.875vw] lg:text-[15.104vw] text-[#7D7A64] z-[1000] leading-none"
-        data-aos="fade-up"
-        data-aos-duration={aosDuration}
-        data-aos-delay={getDelay({ turn: 0 })}
+    <div className="w-full relative h-screen overflow-hidden grid place-items-center">
+      <motion.h1
+        style={{ y: textY }}
+        className=" 
+      font-thunderbold text-[76px] lg:text-[15.104vw] text-[#EDD761] z-[8] absolute lg:top-[10vw] top-52 scroll-smooth"
       >
-        KOTA
-      </h1>
-      <div className="max-xl:mt-[20vw] xl:mt-[2vw] z-[3000] flex flex-col items-center justify-center">
-        <div className="relative">
+        MARGA
+      </motion.h1>
+
+      <div className="absolute bottom-[10vw] z-[1] flex flex-col items-center justify-center scroll-smooth">
+        <div className="flex flex-col justify-center items-center">
           <h1
             className=" 
-          font-thunder text-[5.706vw] md:text-[3.125vw] lg:text-[1.563vw] text-[#F5F5F5] z-[3000]"
-            data-aos="fade-up"
-            data-aos-duration={aosDuration}
-            data-aos-delay={getDelay({ turn: 1 })}
+          font-thunder text-2xl lg:text-[2.5vw] text-[#EDD761] -z-[1]"
           >
             GULIR KE BAWAH
           </h1>
-          <button onClick={() => handleClick()}>
-            <Image
-              src={
-                "https://utfs.io/f/be3daf2b-110c-418e-9ac5-83088e4e8dbb-kyf2my.svg"
-              }
-              width={1}
-              height={1}
-              alt="Picture of the author"
-              className="w-[6.5vw] left-[10.5vw] md:w-[3.5vw] md:left-[6vw] lg:w-[2vw] lg:left-[2.9vw] absolute"
-              data-aos="fade-up"
-              data-aos-duration={aosDuration}
-              data-aos-delay={getDelay({ turn: 0 })}
-            ></Image>
-          </button>
+          <Image
+            src={
+              "https://utfs.io/f/daa63991-735f-4a24-98d5-b5586a57518b-acys0n.svg"
+            }
+            width={3}
+            height={3}
+            alt="Picture of the author"
+            className="flex justify-center w-8 lg:w-[3vw]"
+          ></Image>
         </div>
       </div>
+
+      <motion.div
+        className="absolute z-0 bg-cover lg:w-[99.1vw] inset-0"
+        style={{
+          backgroundImage:
+            "url(https://utfs.io/f/6a4008ed-ce6c-4c62-aa2f-99f616cac23b-1h.svg)",
+          backgroundPosition: "bottom",
+          y: backgroundY,
+        }}
+      />
+      {/* <motion.div
+        className="absolute z-[16]  hidden lg:block"
+        style={{
+          backgroundImage:
+            "url(https://utfs.io/f/9db6ef63-7b41-485b-846b-c2389ba8ef82-1g.svg)",
+          backgroundSize: "100vw",
+          backgroundPosition: "bottom",
+          backgroundRepeat: "no-repeat",
+          y: background1Y,
+        }}
+      />
+      <motion.div
+        className="absolute z-[17]  bottom-0 hidden lg:block"
+        style={{
+          backgroundImage:
+            "url(https://utfs.io/f/804d987d-b28a-4be4-9764-aeaa1069cd7b-1f.svg)",
+          backgroundSize: "100vw",
+          backgroundPosition: "bottom",
+          backgroundRepeat: "no-repeat",
+          y: background2Y,
+        }}
+      />
+      <motion.div
+        className="absolute z-[18]  bottom-0 hidden lg:block"
+        style={{
+          backgroundImage:
+            "url(https://utfs.io/f/f5d67b22-600c-4d18-bc86-dbf9999c7c56-1e.svg)",
+          backgroundSize: "100vw",
+          backgroundPosition: "bottom",
+          backgroundRepeat: "no-repeat",
+          y: background3Y,
+        }}
+      /> */}
+      <div
+        className="absolute z-[19]  bottom-0 bg-gradient-to-b from-transparent to-[#1d1d21] hidden lg:block"
+        style={{
+          backgroundImage:
+            "url(https://utfs.io/f/56012633-070e-430a-be9a-161b6995bd53-1d.svg)",
+          backgroundPosition: "bottom",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "100vw",
+        }}
+      ></div>
+      <div className="absolute bottom-0 z-[20] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
     </div>
   );
 }
+
+export default Hero;
