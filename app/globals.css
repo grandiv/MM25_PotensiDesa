@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "thunder";
+    font-display: swap;
+    src: url("/fonts/Thunder/Thunder-LC.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "thunder-bold";
+    font-display: swap;
+    src: url("/fonts/Thunder/Thunder-BoldHC.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "thunder-light";
+    font-display: swap;
+    src: url("/fonts/Thunder/Thunder-LightHC.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "thunder-medium";
+    font-display: swap;
+    src: url("/fonts/Thunder/Thunder-MediumLC.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "thunder-boldLC";
+    font-display: swap;
+    src: url("/fonts/Thunder/Thunder-BoldLC.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "ariata";
+    font-display: swap;
+    src: url("/fonts/Thunder/AriataStencilBold.otf") format("opentype");
+  }
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.animation,
+.animation_layer {
+  height: 63.115vw;
+}
+
+.animation {
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+
+.animation_layer {
+  background-position: bottom center;
+  background-repeat: repeat-x;
+  background-size: 1038px cover;
+  width: 100%;
+  position: absolute;
+}
+
+.animation_layer.parallax {
+  position: fixed;
+}
+
+.vignette {
+  display: inline-block;
+}
+
+.vignette > img {
+  display: block;
+}
+
+.vignette::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 300px rgba(0, 0, 0, 1);
+}
+
+.vignette-desktop {
+  display: inline-block;
+}
+
+.vignette-desktop > img {
+  display: block;
+}
+
+.vignette-desktop::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 1000px rgba(0, 0, 0, 1);
+}
+
+.vignette-overlay {
+  background: radial-gradient(
+    at 50% 50%,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+}
+
+#background {
+  background-size: cover;
+}
