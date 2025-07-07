@@ -45,11 +45,13 @@ export default function Description() {
           data-aos-duration={aosDuration}
           data-aos-delay={getDelay({ turn: 2 })}
         >
-          <p className="font-thunder text-[5vw] m-[6.3vw] md:m-[3.385vw] my-[12vw] lg:mx-[4.427vw] lg:my-[1.979vw] md:text-[2.344vw] lg:text-[1.458vw]">
+          <p className="font-thunder text-white text-[5vw] m-[6.3vw] md:m-[3.385vw] my-[12vw] lg:mx-[4.427vw] lg:my-[1.979vw] md:text-[2.344vw] lg:text-[1.458vw]">
             Desa Kuwum merupakan salah satu desa di Kecamatan Marga yang
             memiliki lokasi paling jauh dari ibukota kecamatan, yakni lebih dari
-            10 km. Desa ini memiliki potensi besar di beberapa sektor, yaitu
-            pengrajin kayu, pengrajin batu, pertanian, dan peternakan.
+            10 km. Desa Kuwum terdiri atas 5 banjar atau dusun, yaitu Ancak,
+            Ancak Bija, Anyar, Mambal, dan Tegallinggah. Desa ini memiliki
+            potensi besar di beberapa sektor, yaitu pengrajin kayu, pengrajin
+            batu, pertanian, dan peternakan.
           </p>
         </div>
         <div
@@ -72,7 +74,7 @@ export default function Description() {
         data-aos-duration={aosDuration}
         data-aos-delay={getDelay({ turn: 4 })}
       >
-        SOROTAN
+        POTENSI
       </div>
     </div>
   );

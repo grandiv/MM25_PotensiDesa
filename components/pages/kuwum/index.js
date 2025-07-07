@@ -1,6 +1,8 @@
-export * from "./Hero/Hero";
-export * from "./Description/Description";
-export * from "./First_Place/First_Place";
-export * from "./Second_Place/Second_Place";
-export * from "./Third_Place/Third_Place";
-export * from "./Next_Prev/Next_Prev";
+export { default as Hero } from "./Hero/Hero";
+export { default as Description } from "./Description/Description";
+export { default as Banjar } from "./Banjar/Banjar";
+export { default as Pertanian } from "./Pertanian/Pertanian";
+export { default as Peternakan } from "./Peternakan/Peternakan";
+export { default as PengrajinKayu } from "./PengrajinKayu/PengrajinKayu";
+export { default as PengrajinBatu } from "./PengrajinBatu/PengrajinBatu";
+export { default as Next_Prev } from "./Next_Prev/Next_Prev";

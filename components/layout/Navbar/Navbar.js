@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { FaBars } from "react-icons/fa";
 
@@ -18,11 +19,35 @@ const navbarItems = [
 
 export function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const pathname = usePathname();
+
+  // Define color schemes based on current page
+  const getColorScheme = () => {
+    switch (pathname) {
+      case "/kuwum":
+        return {
+          primary: "#0A5C36", // Green
+          accent: "#EDD761", // Yellow
+        };
+      case "/mdp":
+        return {
+          primary: "#0A5C36", // Green
+          accent: "#EDD761", // Yellow
+        };
+      default: // Home page and other pages
+        return {
+          primary: "#EDD761", // Yellow
+          accent: "#0A5C36", // Green
+        };
+    }
+  };
+
+  const colorScheme = getColorScheme();
 
   return (
-    <div className="flex sticky top-0 items-center justify-between py-8 z-[99999999999999999]">
+    <div className="flex fixed top-0 left-0 w-full items-center justify-between py-4 z-[99999999999999999] bg-transparent">
       <Link href="/">
-        <Image
+        {/* <Image
           src={
             "https://utfs.io/f/90d416f5-f6a9-4e80-b30b-62edc48f653d-nea2yo.svg"
           }
@@ -30,7 +55,13 @@ export function Navbar() {
           width={100}
           height={100}
           className="ml-[2vw] z-9999999 logo w-[40vw] md:w-[20vw] lg:w-[10vw]"
-        />
+        /> */}
+        <h1
+          style={{ color: colorScheme.primary }}
+          className="text-[5vw] md:text-[5vw] lg:text-[3vw] ml-[2vw] z-999 font-thunderbold"
+        >
+          MARGA
+        </h1>
       </Link>
       <nav>
         <section className="flex inset-0">
@@ -38,7 +69,10 @@ export function Navbar() {
             className="space-y-2"
             onClick={() => setIsNavOpen((prev) => !prev)}
           >
-            <FaBars className="mr-[2vw] z-[999999999999999999] text-[#EDD761] text-[6vw] md:text-[4vw] lg:text-[2vw] hover:cursor-pointer" />
+            <FaBars
+              className="mr-[2vw] z-[999999999999999999] text-[6vw] md:text-[4vw] lg:text-[2vw] hover:cursor-pointer"
+              style={{ color: colorScheme.primary }}
+            />
           </div>
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
@@ -61,7 +95,15 @@ export function Navbar() {
             </div>
             <div className="flex flex-col lg:flex-bar text-[white] gap-y-1 z-[9999999999999999] h-[500vh]">
               <div
-                className="text-center tracking-wide mt-[15vw] md:mt-[5vw] text-[32px] lg:text-[64px] font-thunderbold border-gray-400 uppercase hover:text-[#EDD761]"
+                className="text-center tracking-wide mt-[15vw] md:mt-[5vw] text-[32px] lg:text-[64px] font-thunderbold border-gray-400 uppercase hover:cursor-pointer"
+                style={{
+                  color: "white",
+                  transition: "color 0.3s ease",
+                }}
+                onMouseEnter={(e) =>
+                  (e.target.style.color = colorScheme.primary)
+                }
+                onMouseLeave={(e) => (e.target.style.color = "white")}
                 onClick={() => {
                   setTimeout(() => {
                     setIsNavOpen((prev) => !prev);
@@ -76,7 +118,15 @@ export function Navbar() {
                 </div>
                 {navbarItems.map((item, index) => (
                   <Link
-                    className="font-thunder text-[24px] lg:text-[32px] text-[#EDD761] hover:text-[#F5F5F5]"
+                    className="font-thunder text-[24px] lg:text-[32px] hover:cursor-pointer"
+                    style={{
+                      color: colorScheme.primary,
+                      transition: "color 0.3s ease",
+                    }}
+                    onMouseEnter={(e) => (e.target.style.color = "#F5F5F5")}
+                    onMouseLeave={(e) =>
+                      (e.target.style.color = colorScheme.primary)
+                    }
                     href={item.link}
                     key={index}
                   >
