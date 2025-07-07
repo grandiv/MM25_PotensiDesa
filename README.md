@@ -1,6 +1,6 @@
-### WONDERFUL YOGYAKARTA
+### Potensi Desa Marga Dauh Puri dan Kuwum
 
-## by n93_w3b
+## by Tim KKN-PPM Marga Manggala 2025, All credits goes to Grandiv and Gavind
 
 Ini adalah project [Next.js](https://nextjs.org/) bootstrapped dengan [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
