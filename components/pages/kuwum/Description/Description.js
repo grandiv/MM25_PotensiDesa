@@ -46,13 +46,10 @@ export default function Description() {
           data-aos-delay={getDelay({ turn: 2 })}
         >
           <p className="font-thunder text-[5vw] m-[6.3vw] md:m-[3.385vw] my-[12vw] lg:mx-[4.427vw] lg:my-[1.979vw] md:text-[2.344vw] lg:text-[1.458vw]">
-            Kota Yogyakarta, jantung dari Provinsi Daerah Istimewa Yogyakarta,
-            mempesona dengan warisan budaya dan sejarah yang kaya. Dikenal
-            dengan keindahan tempat-tempat budaya yang menjadi magnet bagi
-            wisatawan, kota ini sering disebut sebagai tempat di mana cinta dan
-            patah hati meninggalkan kesan yang tak terlupakan. Setiap sudutnya
-            memancarkan pesona yang istimewa, membuat Yogyakarta menjadi kota
-            yang sulit untuk dilupakan.
+            Desa Kuwum merupakan salah satu desa di Kecamatan Marga yang
+            memiliki lokasi paling jauh dari ibukota kecamatan, yakni lebih dari
+            10 km. Desa ini memiliki potensi besar di beberapa sektor, yaitu
+            pengrajin kayu, pengrajin batu, pertanian, dan peternakan.
           </p>
         </div>
         <div

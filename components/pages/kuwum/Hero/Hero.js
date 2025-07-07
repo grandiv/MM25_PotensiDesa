@@ -30,7 +30,7 @@ export default function Hero() {
         data-aos-duration={aosDuration}
         data-aos-delay={getDelay({ turn: 0 })}
       >
-        KOTA
+        KUWUM
       </h1>
       <div className="max-xl:mt-[20vw] xl:mt-[2vw] z-[3000] flex flex-col items-center justify-center">
         <div className="relative">

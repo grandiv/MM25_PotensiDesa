@@ -7,24 +7,12 @@ import { FaBars } from "react-icons/fa";
 
 const navbarItems = [
   {
-    title: "Kota Yogyakarta",
-    link: "/yogyakarta",
+    title: "Kuwum",
+    link: "/kuwum", // BANJAR2 TAMBAHIN (Seni Budaya, pertanian, peternakan dsb.), https://subakbali.org/subak/tabanan_subak-apit-jaring/. Subak Apit Jaring. https://app3.pertanian.go.id/simluh/monpetanikec.php
   },
   {
-    title: "Bantul",
-    link: "/bantul",
-  },
-  {
-    title: "Gunung Kidul",
-    link: "/gunungkidul",
-  },
-  {
-    title: "Kulon Progo",
-    link: "/kulonprogo",
-  },
-  {
-    title: "Sleman",
-    link: "/sleman",
+    title: "Marga Dauh Puri",
+    link: "/mdp",
   },
 ];
 
@@ -84,7 +72,7 @@ export function Navbar() {
               </div>
               <div className="border-gray-400 space-y-[2vw] lg:space-y-0 uppercase flex flex-col items-center">
                 <div className="text-[32px] tracking-wide lg:text-[64px] font-thunderbold border-gray-400 mt-8 uppercase">
-                  Kabupaten
+                  Desa
                 </div>
                 {navbarItems.map((item, index) => (
                   <Link
