@@ -45,14 +45,14 @@ export default function Description() {
           data-aos-duration={aosDuration}
           data-aos-delay={getDelay({ turn: 2 })}
         >
-          <p className="font-thunder text-[5vw] m-[6.3vw] md:m-[3.385vw] my-[12vw] lg:mx-[4.427vw] lg:my-[1.979vw] md:text-[2.344vw] lg:text-[1.458vw]">
-            Kota Yogyakarta, jantung dari Provinsi Daerah Istimewa Yogyakarta,
-            mempesona dengan warisan budaya dan sejarah yang kaya. Dikenal
-            dengan keindahan tempat-tempat budaya yang menjadi magnet bagi
-            wisatawan, kota ini sering disebut sebagai tempat di mana cinta dan
-            patah hati meninggalkan kesan yang tak terlupakan. Setiap sudutnya
-            memancarkan pesona yang istimewa, membuat Yogyakarta menjadi kota
-            yang sulit untuk dilupakan.
+          <p className="font-thunder text-[5vw] m-[6.3vw] md:m-[3.385vw] my-[12vw] lg:mx-[4.427vw] lg:my-[1.979vw] md:text-[2.344vw] lg:text-[1.458vw] text-white">
+            Marga Dauh Puri adalah desa di kecamatan Marga, Kabupaten Tabanan,
+            provinsi Bali, Indonesia. Desa ini memiliki luas sekitar 2,23 km²
+            dengan jumlah penduduk di angka 2.194 jiwa(2016]. Desa Marga Dauh
+            Puri memiliki beberapa potensi wisata dan daerah, seperti misalnya
+            UMKM yang berjalan dengan baik dan dibantu oleh perangkat desa,
+            serta Taman Pujaan Bangsa Margarana, yang merupakan makam dari I
+            Gusti Ngurah Rai.
           </p>
         </div>
         <div

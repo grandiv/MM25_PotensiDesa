@@ -26,12 +26,12 @@ export function Navbar() {
     switch (pathname) {
       case "/kuwum":
         return {
-          primary: "#0A5C36", // Green
+          primary: "#B6F500", // Green
           accent: "#EDD761", // Yellow
         };
       case "/mdp":
         return {
-          primary: "#0A5C36", // Green
+          primary: "#5EABD6", // Blue
           accent: "#EDD761", // Yellow
         };
       default: // Home page and other pages
