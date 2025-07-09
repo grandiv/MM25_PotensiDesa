@@ -1,4 +1,4 @@
-### Potensi Desa Marga Dauh Puri dan Kuwum
+# Potensi Desa Marga Dauh Puri dan Kuwum
 
 ## by Tim KKN-PPM Marga Manggala 2025, All credits goes to Grandiv and Gavind
 
