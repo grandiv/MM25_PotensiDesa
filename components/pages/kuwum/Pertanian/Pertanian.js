@@ -14,13 +14,26 @@ export default function Pertanian() {
   return (
     <div className="relative w-full bg-[#1d1d21] md:aspect-[1252/557] aspect-[360/1000] lg:aspect-[1920/1044]">
       <div
-        className="relative h-[120vw] md:h-[50vw] lg:h-[47.948vw] w-full bg-[url('https://utfs.io/f/0be5a25f-b3f3-49d5-bed4-2d877b4d07ec-iwlp6r.svg')] md:bg-[url('https://utfs.io/f/516fb5e6-8fb3-43f1-969f-c405773add7c-iwlpc6.svg')] lg:bg-[url('https://utfs.io/f/a11162ce-e7dc-40ed-a920-881c49e751e8-iwlpcy.svg')] rounded-t-[8.889vw] md:rounded-t-[4.167vw] lg:rounded-t-[3.75vw] bg-cover flex justify-center md:justify-end lg:bg-bottom"
+        className="relative h-[120vw] md:h-[50vw] lg:h-[47.948vw] w-full rounded-t-[8.889vw] md:rounded-t-[4.167vw] lg:rounded-t-[3.75vw] overflow-hidden flex justify-center md:justify-end"
         data-aos="fade-up"
         data-aos-duration={aosDuration}
         data-aos-delay={getDelay({ turn: 0 })}
       >
-        <div className="absolute bottom-0 z-[0] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
-        <h1 className=" font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#0A5C36] leading-none mt-[10vw] md:mt-[5vw] md:mr-[5vw] lg:mt-[3vw] lg:mr-[3vw]">
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source
+            src="/kuwum/pertanian/pertaniansectionheader.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <div className="absolute bottom-0 z-[1] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
+        <h1 className="relative z-[2] font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#0A5C36] leading-none mt-[10vw] md:mt-[5vw] md:mr-[5vw] lg:mt-[3vw] lg:mr-[3vw] drop-shadow-lg bg-black/30 backdrop-blur-sm px-[2vw] py-[1vw] rounded-[1vw] border border-white/20">
           PERTANIAN
         </h1>
       </div>
