@@ -28,7 +28,7 @@ const banjarData = [
     kepalaWilayah: "I Made Sumada",
     description:
       "Pusat kerajinan kayu tradisional dengan pengrajin berpengalaman turun temurun menghasilkan ukiran berkualitas.",
-    population: "±336 KK",
+    population: "±336 KK", // foto pertanian lebih variatif, habis populasi, padi menguning, peternakan babi sapi, kuliner
     image: "/kuwum/pengrajinkayu/ukirankayucard.jpg", // Wood crafting
     specialty: "Kerajinan Kayu",
   },
