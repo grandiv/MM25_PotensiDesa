@@ -19,7 +19,7 @@ export default function PengrajinBatu() {
         data-aos-delay={getDelay({ turn: 0 })}
       >
         <div className="absolute bottom-0 z-[0] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
-        <h1 className=" font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#0A5C36] leading-none mt-[10vw] md:mt-[5vw] md:mr-[5vw] lg:mt-[3vw] lg:mr-[3vw]">
+        <h1 className="absolute top-[10vw] left-[5vw] md:top-[5vw] md:left-[5vw] lg:top-[3vw] lg:left-[3vw] z-[2] font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#B6F500] leading-none drop-shadow-lg bg-white bg-opacity-[1px] backdrop-blur-sm px-[2vw] py-[1vw] pt-2 md:pt-4 lg:pt-8 rounded-[1vw] border border-white/20 flex items-center justify-center">
           PENGRAJIN BATU
         </h1>
       </div>

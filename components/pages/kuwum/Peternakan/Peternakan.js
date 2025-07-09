@@ -19,38 +19,32 @@ export default function Peternakan() {
         data-aos-delay={getDelay({ turn: 0 })}
       >
         <div className="absolute bottom-0 z-[0] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
-        <h1 className=" font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#0A5C36] leading-none mt-[10vw] md:mt-[5vw] md:ml-[5vw] lg:mt-[3vw] lg:ml-[3vw]">
+        <h1 className="absolute top-[10vw] left-[5vw] md:top-[5vw] md:left-[5vw] lg:top-[3vw] lg:left-[3vw] z-[2] font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#B6F500] leading-none drop-shadow-lg bg-white bg-opacity-[1px] backdrop-blur-sm px-[2vw] py-[1vw] pt-2 md:pt-4 lg:pt-8 rounded-[1vw] border border-white/20 flex items-center justify-center">
           PETERNAKAN
         </h1>
       </div>
       <div className="relative w-full flex flex-col md:flex-row md:justify-center">
         <div className=" -translate-y-[16vw] flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] lg: z-[10000] lg:-translate-y-[24vw] md:hidden">
           <Image
-            src={
-              "https://utfs.io/f/1787d7e5-4d83-4836-8be8-6cce1e3a794d-j75j84.svg"
-            }
-            width={1}
-            height={1}
+            src="/kuwum/pertanian/pertanian.jpg"
+            width={856}
+            height={1024}
             alt="Picture of the author"
-            className="w-[32vw] md:w-[14vw] self-end"
+            className="w-[32vw] h-[38vw] mx-2 md:mx-4 md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-start"
           />
           <Image
-            src={
-              "https://utfs.io/f/dcc7e33a-b986-4763-8bee-855d77e070a9-j75j83.svg"
-            }
-            width={1}
-            height={1}
+            src="/kuwum/pertanian/subak1.jpg"
+            width={856}
+            height={1024}
             alt="Picture of the author"
-            className="w-[32vw] md:w-[14vw] self-center"
+            className="w-[32vw] h-[38vw] md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-center"
           />
           <Image
-            src={
-              "https://utfs.io/f/7d1b9f27-f7b3-4d01-b377-314988a8c35a-j75j82.svg"
-            }
-            width={1}
-            height={1}
+            src="/kuwum/pertanian/subak2.jpg"
+            width={856}
+            height={1024}
             alt="Picture of the author"
-            className="w-[32vw] md:w-[14vw] self-start"
+            className="w-[32vw] h-[38vw] mx-2 md:mx-4 md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-end"
           />
         </div>
         <div className="border-white border-[0.278vw] border-opacity-20 rounded-[6.667vw] flex flex-col justify-center items-center py-[9.722vw] md:p-[3.646vw] px-[6.667vw] m-[6.667vw] md:m-0 -mt-[13vw] md:-mt-[17 vw] bg-white bg-opacity-[1px] md:py-0 md:h-[23vw] md:w-[45vw] md:rounded-[2.083vw] md:mr-[1.9vw] md:backdrop-blur-lg md:-translate-y-[15vw] md:border-[0.13vw] lg:w-[40vw] lg:h-[12.396vw] lg:flex-row">
