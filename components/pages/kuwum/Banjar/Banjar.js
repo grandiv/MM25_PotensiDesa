@@ -70,11 +70,11 @@ export default function Banjar() {
   }, []);
 
   return (
-    <div className="relative w-full bg-[#1d1d21] py-[12vw] md:py-[8vw] lg:py-[6vw]">
+    <div className="relative w-full bg-[#1d1d21] mx-auto text-center">
       {/* Section Title */}
       <div className="text-center mb-[8vw] md:mb-[6vw] lg:mb-[4vw]">
         <h2
-          className="font-thunderbold text-[12vw] md:text-[8vw] lg:text-[6vw] text-[#0A5C36] leading-none mb-[4vw] md:mb-[3vw] lg:mb-[2vw]"
+          className="font-thunderbold text-[12vw] md:text-[8vw] lg:text-[6vw] text-[#B6F500] leading-none mb-[4vw] md:mb-[3vw] lg:mb-[2vw]"
           data-aos="fade-up"
           data-aos-duration={aosDuration}
           data-aos-delay={getDelay({ turn: 0 })}
@@ -98,7 +98,7 @@ export default function Banjar() {
           {banjarData.map((banjar, index) => (
             <Card
               key={banjar.id}
-              className="bg-white/95 backdrop-blur-sm border-white/20 hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer group overflow-hidden"
+              className="bg-black/40 border border-white/80 backdrop-blur-sm hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer group overflow-hidden"
               data-aos="fade-up"
               data-aos-duration={aosDuration}
               data-aos-delay={getDelay({ turn: index + 2 })}
@@ -114,7 +114,7 @@ export default function Banjar() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 20vw"
                 />
                 {/* Specialty Badge */}
-                {/* <div className="absolute top-[2vw] right-[2vw] bg-[#0A5C36] text-white px-[2vw] py-[1vw] md:px-[1.5vw] md:py-[0.5vw] lg:px-[0.8vw] lg:py-[0.3vw] rounded-full z-20">
+                {/* <div className="absolute top-[2vw] right-[2vw] bg-[#B6F500] text-white px-[2vw] py-[1vw] md:px-[1.5vw] md:py-[0.5vw] lg:px-[0.8vw] lg:py-[0.3vw] rounded-full z-20">
                   <span className="font-thundermedium text-[2.5vw] md:text-[1.5vw] lg:text-[0.8vw]">
                     {banjar.specialty}
                   </span>
@@ -122,7 +122,7 @@ export default function Banjar() {
               </div>
 
               <CardHeader className="pb-[2vw] md:pb-[1.5vw] lg:pb-[1vw]">
-                <CardTitle className="text-[5vw] font-thunder-light md:text-[3vw] lg:text-[1.5vw] text-[#0A5C36] text-center">
+                <CardTitle className="text-[5vw] font-thunder-light md:text-[3vw] lg:text-[1.5vw] text-[#B6F500] text-center">
                   {banjar.name}
                 </CardTitle>
               </CardHeader>
@@ -130,26 +130,26 @@ export default function Banjar() {
               <CardContent className="space-y-[3vw] md:space-y-[2vw] lg:space-y-[1vw]">
                 {/* Kepala Wilayah */}
                 <div className="text-center">
-                  <p className="font-thundermedium text-[3vw] md:text-[2vw] lg:text-[0.9vw] text-gray-600 mb-[1vw] md:mb-[0.5vw] lg:mb-[0.3vw]">
+                  <p className="font-thundermedium text-[3vw] md:text-[2vw] lg:text-[0.9vw] text-white/60 mb-[1vw] md:mb-[0.5vw] lg:mb-[0.3vw]">
                     Kepala Wilayah
                   </p>
-                  <p className="font-thunder text-[3.5vw] md:text-[2.2vw] lg:text-[1vw] text-black font-semibold">
+                  <p className="font-thunder text-[3.5vw] md:text-[2.2vw] lg:text-[1vw] text-white font-semibold">
                     {banjar.kepalaWilayah}
                   </p>
                 </div>
 
                 {/* Population */}
                 <div className="text-center">
-                  <p className="font-thundermedium text-[3vw] md:text-[2vw] lg:text-[0.9vw] text-gray-600 mb-[1vw] md:mb-[0.5vw] lg:mb-[0.3vw]">
+                  <p className="font-thundermedium text-[3vw] md:text-[2vw] lg:text-[0.9vw] text-white/60 mb-[1vw] md:mb-[0.5vw] lg:mb-[0.3vw]">
                     Jumlah KK
                   </p>
-                  <p className="font-thunder text-[3.5vw] md:text-[2.2vw] lg:text-[1vw] text-[#0A5C36] font-semibold">
+                  <p className="font-thunder text-[3.5vw] md:text-[2.2vw] lg:text-[1vw] text-[#B6F500] font-semibold">
                     {banjar.population}
                   </p>
                 </div>
 
                 {/* Description */}
-                <CardDescription className="font-thunder text-[3vw] md:text-[1.8vw] lg:text-[0.85vw] text-gray-700 text-center leading-relaxed">
+                <CardDescription className="font-thunder text-[3vw] md:text-[1.8vw] lg:text-[0.85vw] text-white/60 text-center leading-relaxed">
                   {banjar.description}
                 </CardDescription>
               </CardContent>
@@ -159,8 +159,16 @@ export default function Banjar() {
       </div>
 
       {/* Decorative Elements */}
-      <div className="absolute top-[10vw] left-[5vw] w-[8vw] h-[8vw] bg-[#0A5C36]/10 rounded-full blur-xl" />
-      <div className="absolute bottom-[10vw] right-[5vw] w-[12vw] h-[12vw] bg-[#0A5C36]/10 rounded-full blur-xl" />
+      <div className="absolute top-[10vw] left-[5vw] w-[8vw] h-[8vw] bg-[#B6F500]/10 rounded-full blur-xl" />
+      <div className="absolute bottom-[10vw] right-[5vw] w-[12vw] h-[12vw] bg-[#B6F500]/10 rounded-full blur-xl" />
+      <div
+        className="font-thunderbold text-[19.817vw] md:text-[9.289vw] lg:text-[17.587vw] my-[16vw] md:my-[5vw] lg:my-[7vw] leading-none tracking-widest bg-gradient-to-b from-white to-[#1D1D21] inline-block text-transparent bg-clip-text text-center"
+        data-aos="fade-up"
+        data-aos-duration={aosDuration}
+        data-aos-delay={getDelay({ turn: 4 })}
+      >
+        POTENSI
+      </div>
     </div>
   );
 }

@@ -18,7 +18,7 @@ export default function Second_Place() {
         data-aos-delay={getDelay({ turn: 0 })}
       >
         <div className="absolute bottom-0 z-[0] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
-        <h1 className=" font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#0A5C36] leading-none mt-[10vw] md:mt-[5vw] md:ml-[5vw] lg:mt-[3vw] lg:ml-[3vw]">
+        <h1 className=" font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#B6F500] leading-none mt-[10vw] md:mt-[5vw] md:ml-[5vw] lg:mt-[3vw] lg:ml-[3vw]">
           MALIOBORO
         </h1>
       </div>

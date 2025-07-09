@@ -26,18 +26,18 @@ export function Navbar() {
     switch (pathname) {
       case "/kuwum":
         return {
-          primary: "#B6F500", // Green
-          accent: "#EDD761", // Yellow
+          primary: "#B6F500",
+          accent: "#EDD761",
         };
       case "/mdp":
         return {
-          primary: "#5EABD6", // Blue
-          accent: "#EDD761", // Yellow
+          primary: "#5EABD6",
+          accent: "#EDD761",
         };
       default: // Home page and other pages
         return {
-          primary: "#EDD761", // Yellow
-          accent: "#0A5C36", // Green
+          primary: "#EDD761",
+          accent: "#B6F500",
         };
     }
   };

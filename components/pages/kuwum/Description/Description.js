@@ -68,14 +68,6 @@ export default function Description() {
           ></Image>
         </div>
       </div>
-      <div
-        className=" font-thunderbold text-[19.817vw] md:text-[9.289vw] lg:text-[17.587vw] my-[16vw] md:my-[5vw] lg:my-[7vw] leading-none tracking-widest bg-gradient-to-b from-white to-[#1D1D21] inline-block text-transparent bg-clip-text text-center"
-        data-aos="fade-up"
-        data-aos-duration={aosDuration}
-        data-aos-delay={getDelay({ turn: 4 })}
-      >
-        POTENSI
-      </div>
     </div>
   );
 }
