@@ -3,107 +3,101 @@ import Image from "next/image";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { aosDuration, getDelay } from "../../../allPage/configs/aosConfig";
+// Button component is no longer needed if "LIHAT LEBIH" is removed
+// import { Button } from "@/components/ui/button";
 
-export default function Second_Place() {
+export default function ProfilDesa() {
   const [showModal, setShowModal] = useState(false);
   useEffect(() => {
     Aos.init();
   }, []);
+
   return (
     <div className="relative w-full bg-[#1d1d21] md:aspect-[1252/557] aspect-[360/1000] lg:aspect-[1920/1044]">
       <div
-        className="relative h-[120vw] md:h-[50vw] lg:h-[47.948vw] w-full bg-[url('https://utfs.io/f/26f12fca-3b38-4c83-b312-04e9bf3f1b30-80p6f0.svg')] md:bg-[url('https://utfs.io/f/c64b28db-4da2-4cd9-90dc-5a442f5c9660-80p6kf.svg')] lg:bg-[url('https://utfs.io/f/814e10fd-cf44-4f84-b6ea-24cfa1cdf188-80p6l7.svg')] rounded-t-[8.889vw] md:rounded-t-[4.167vw] lg:rounded-t-[3.75vw] bg-cover flex justify-center md:justify-start lg:bg-bottom"
+        className="relative h-[120vw] md:h-[50vw] lg:h-[47.948vw] w-full rounded-t-[8.889vw] md:rounded-t-[4.167vw] lg:rounded-t-[3.75vw] overflow-hidden flex justify-center md:justify-end"
         data-aos="fade-up"
         data-aos-duration={aosDuration}
         data-aos-delay={getDelay({ turn: 0 })}
       >
-        <div className="absolute bottom-0 z-[0] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
-        <h1 className=" font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#5EABD6] leading-none mt-[10vw] md:mt-[5vw] md:ml-[5vw] lg:mt-[3vw] lg:ml-[3vw]">
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src="/mdp/profildesa/profildesaa.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        {/* Black overlay with adjustable opacity for text readability */}
+        {/* Change 'bg-opacity-30' to bg-opacity-60, bg-opacity-80, etc., to modify darkness */}
+        <div className="absolute inset-0 bg-black bg-opacity-30 z-[1]"></div>
+
+        {/* The existing fade at the bottom, which works on top of the black overlay */}
+        <div className="absolute bottom-0 z-[1] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
+
+        <h1 className="stroke-white-3px absolute top-[10vw] right-[5vw] md:top-[5vw] md:right-[5vw] lg:top-[3vw] lg:right-[3vw] z-[2] font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#FFFFFF] leading-none drop-shadow-lg bg-white bg-opacity-[1px] backdrop-blur-sm px-[2vw] py-[1vw] pt-2 md:pt-4 lg:pt-8 rounded-[1vw] border border-white/20 flex items-center justify-center">
           PROFIL DESA
         </h1>
       </div>
       <div className="relative w-full flex flex-col md:flex-row md:justify-center">
-        <div className=" -translate-y-[16vw] flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] lg: z-[10000] lg:-translate-y-[24vw] md:hidden">
+        <div className="-translate-y-[16vw] flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] lg:z-[10000] lg:-translate-y-[24vw] px-[4vw] md:px-0">
+          {/* Smaller images with drop shadow for contrast */}
           <Image
-            src={
-              "https://utfs.io/f/1787d7e5-4d83-4836-8be8-6cce1e3a794d-j75j84.svg"
-            }
-            width={1}
-            height={1}
+            src="/mdp/profildesa/pic3.jpg"
+            width={856}
+            height={1024}
             alt="Picture of the author"
-            className="w-[32vw] md:w-[14vw] self-end"
+            className="w-[32vw] h-[38vw] mx-2 md:mx-4 md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-end"
           />
           <Image
-            src={
-              "https://utfs.io/f/dcc7e33a-b986-4763-8bee-855d77e070a9-j75j83.svg"
-            }
-            width={1}
-            height={1}
+            src="/mdp/profildesa/pic2.JPG"
+            width={856}
+            height={1024}
             alt="Picture of the author"
-            className="w-[32vw] md:w-[14vw] self-center"
+            className="w-[32vw] h-[38vw] md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-center"
           />
           <Image
-            src={
-              "https://utfs.io/f/7d1b9f27-f7b3-4d01-b377-314988a8c35a-j75j82.svg"
-            }
-            width={1}
-            height={1}
+            src="/mdp/profildesa/pic1.jpg"
+            width={856}
+            height={1024}
             alt="Picture of the author"
-            className="w-[32vw] md:w-[14vw] self-start"
+            className="w-[32vw] h-[38vw] mx-2 md:mx-4 md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-start"
           />
         </div>
+        {/* Card with extended text - Simplified positioning for visibility */}
         <div
           className="border-white border-[0.278vw] border-opacity-20 rounded-[6.667vw]
-                flex flex-col justify-center items-center              /* Mobile: Centers children vertically and horizontally */
-                py-[9.722vw] md:p-[3.646vw] px-[6.667vw] m-[6.667vw] md:m-0 -mt-[13vw] md:-mt-[17vw]
-                bg-white bg-opacity-[1px] md:py-0 md:h-[23vw] md:w-[45vw] md:rounded-[2.083vw]
-                md:mr-[1.9vw] md:backdrop-blur-lg md:-translate-y-[0vw] md:border-[0.13vw]
-                lg:w-[40vw] lg:h-[12.396vw]
-                lg:flex-row lg:justify-center                         /* LG: Keep flex-row, justify-center for horizontal */
-                "
+            flex flex-col justify-center items-center              /* Mobile: Centers children vertically and horizontally */
+            py-[5vw] md:p-[2vw] px-[4vw]                             /* ADJUSTED PADDING */
+            bg-white bg-opacity-10 md:py-0                           /* Fixed bg-opacity */
+            md:w-[45vw] md:rounded-[2.083vw]                     
+            md:ml-[1.9vw] md:backdrop-blur-lg md:-translate-y-[19vw] md:-translate-x-[-3.5vw] md:border-[0.13vw] /* Kept translate-y for overlap */
+            lg:w-[40vw]                                           /* Removed lg:h-[40vw] to make height fit content */
+            lg:flex-row lg:justify-center lg:h-full lg:p-4                        /* LG: Keep flex-row, justify-center for horizontal content */
+            "
         >
           <p
             className="font-thunder
                   text-[5vw] text-center                               /* Text centered within its own width */
                   md:text-[2.344vw] lg:text-[1.458vw]
-                  lg:mr-0                                              /* Keep this to avoid right margin offset */
                   w-full                                               /* Ensure paragraph takes full width of its flex item */
+                  text-white                                           /* Ensure text color is white for contrast */
                   "
           >
             Marga Dauh Puri adalah desa di kecamatan Marga, Kabupaten Tabanan,
             provinsi Bali, Indonesia. Desa ini memiliki luas sekitar 2,23 km²
-            dengan jumlah penduduk di angka 2.194 jiwa(2016].
+            dengan jumlah penduduk di angka 2.194 jiwa(2016]. Pemandangan dari
+            Desa Marga Dauh Puri sangat menawan dengan campuran antara bangunan
+            adat serta sawah-sawah yang masih asri dan hijau. Dengan wilayah
+            yang berada di dataran tinggi, udara yang ada di desa ini sangatlah
+            bersih dan asri. Selain itu, adanya landscape yang terdiri dari
+            sawah dan hijau-hijauan lainnya membuat tempat ini sangatlah nyaman
+            ditinggali.
           </p>
-        </div>
-
-        <div className=" -translate-y-[16vw] md:flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] z-[10000] lg:-translate-y-[23vw] hidden">
-          <Image
-            src={
-              "https://utfs.io/f/83dcb27e-f40c-4c8f-bcd0-3b73f06a85f9-j75j84.svg"
-            }
-            width={1}
-            height={1}
-            alt="Picture of the author"
-            className="w-[32vw] md:w-[14vw] self-end"
-          />
-          <Image
-            src={
-              "https://utfs.io/f/77063df7-e4d4-4ecc-8c6e-4624e6533c87-j75j83.svg"
-            }
-            width={1}
-            height={1}
-            alt="Picture of the author"
-            className="w-[32vw] md:w-[14vw] self-center"
-          />
-          <Image
-            src={
-              "https://utfs.io/f/7d1b9f27-f7b3-4d01-b377-314988a8c35a-j75j82.svg"
-            }
-            width={1}
-            height={1}
-            alt="Picture of the author"
-            className="w-[32vw] md:w-[14vw] self-start"
-          />
+          {/* The "LIHAT LEBIH" button is removed */}
         </div>
       </div>
       <>
@@ -124,15 +118,15 @@ export default function Second_Place() {
                       <svg
                         class="w-3 h-3"
                         aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)"
                         fill="none"
                         viewBox="0 0 14 14"
                       >
                         <path
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
                         />
                       </svg>
@@ -142,7 +136,7 @@ export default function Second_Place() {
                   {/*body*/}
                   <Image
                     src={
-                      "https://utfs.io/f/8b23dfdc-a50b-4c95-9cd9-39abe34feeea-prcrn1.svg"
+                      "[https://utfs.io/f/6aa5a564-236a-41fa-8bfc-da95a4d01f9c-co6ln7.svg](https://utfs.io/f/6aa5a564-236a-41fa-8bfc-da95a4d01f9c-co6ln7.svg)"
                     }
                     width={1}
                     height={1}
@@ -151,7 +145,7 @@ export default function Second_Place() {
                   />
                   <Image
                     src={
-                      "https://utfs.io/f/bd35aef4-b9b6-41db-bf59-24bf3fc14517-prcrn0.svg"
+                      "[https://utfs.io/f/34f1196d-f436-4e6c-996c-ebdd7fc0b140-co6ln8.svg](https://utfs.io/f/34f1196d-f436-4e6c-996c-ebdd7fc0b140-co6ln8.svg)"
                     }
                     width={1}
                     height={1}
