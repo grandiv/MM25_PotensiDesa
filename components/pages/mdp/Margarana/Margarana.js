@@ -79,7 +79,7 @@ export default function Margarana() {
         <div className="-translate-y-[1vw] flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] lg:z-[10000] lg:-translate-y-[25vw] px-[4vw] md:px-0">
           {/* Gambar pertama (sebelumnya self-start) sekarang self-end */}
           <Image
-            src="/mdp/margarana/marg1.jpg"
+            src="/mdp/margarana/marg1.JPG"
             width={856}
             height={1024}
             alt="Gambar penulis"
@@ -87,7 +87,7 @@ export default function Margarana() {
           />
           {/* Gambar kedua tetap self-center */}
           <Image
-            src="/mdp/margarana/marg2.jpg"
+            src="/mdp/margarana/marg2.JPG"
             width={856}
             height={1024}
             alt="Gambar penulis"
