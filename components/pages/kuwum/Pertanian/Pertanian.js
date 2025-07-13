@@ -48,14 +48,14 @@ export default function Pertanian() {
             className="w-[32vw] h-[38vw] mx-2 md:mx-4 md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-start"
           />
           <Image
-            src="/kuwum/pertanian/subak1.jpg"
+            src="/kuwum/pertanian/pertanian3.jpg"
             width={856}
             height={1024}
             alt="Picture of the author"
             className="w-[32vw] h-[38vw] md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-center"
           />
           <Image
-            src="/kuwum/pertanian/subak2.jpg"
+            src="/kuwum/pertanian/pertanian4.jpg"
             width={856}
             height={1024}
             alt="Picture of the author"
@@ -76,7 +76,7 @@ export default function Pertanian() {
           >
             <div className="flex items-center">
               <h2 className="text-black font-thundermedium md:font-thunder text-[4.2vw] sm:text-[4.919vw] md:text-[2.306vw] lg:text-[1.427vw] leading-none mr-[2.5vw] sm:mr-[3vw] md:mr-[1.5vw] lg:mr-[0.8vw]">
-                LIHAT LEBIH
+                DATA SUBAK
               </h2>
               <Image
                 src={
@@ -125,24 +125,499 @@ export default function Pertanian() {
                     </button>
                   </div>
                   {/*body*/}
-                  <Image
-                    src={
-                      "https://utfs.io/f/6aa5a564-236a-41fa-8bfc-da95a4d01f9c-co6ln7.svg"
-                    }
-                    width={1}
-                    height={1}
-                    alt="Picture of the author"
-                    className="w-[80vw] md:hidden"
-                  />
-                  <Image
-                    src={
-                      "https://utfs.io/f/34f1196d-f436-4e6c-996c-ebdd7fc0b140-co6ln8.svg"
-                    }
-                    width={1}
-                    height={1}
-                    alt="Picture of the author"
-                    className="md:w-[90vw] w-[80vw] hidden md:block"
-                  />
+                  <div className="px-6 pb-6 max-h-[70vh] overflow-y-auto">
+                    <div className="bg-black/80 backdrop-blur-sm rounded-lg border border-white/20 overflow-hidden">
+                      <div className="overflow-x-auto">
+                        <table className="w-full text-white">
+                          <thead className="bg-[#B6F500]/20 sticky top-0">
+                            <tr>
+                              <th className="px-4 py-3 text-left text-xs font-thundermedium text-[#B6F500] uppercase tracking-wider">
+                                No
+                              </th>
+                              <th className="px-4 py-3 text-left text-xs font-thundermedium text-[#B6F500] uppercase tracking-wider">
+                                Nama Kelompok
+                              </th>
+                              <th className="px-4 py-3 text-left text-xs font-thundermedium text-[#B6F500] uppercase tracking-wider">
+                                Ketua
+                              </th>
+                              <th className="px-4 py-3 text-left text-xs font-thundermedium text-[#B6F500] uppercase tracking-wider">
+                                Alamat
+                              </th>
+                              <th className="px-4 py-3 text-left text-xs font-thundermedium text-[#B6F500] uppercase tracking-wider">
+                                Anggota
+                              </th>
+                              <th className="px-4 py-3 text-left text-xs font-thundermedium text-[#B6F500] uppercase tracking-wider">
+                                Status
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody className="divide-y divide-white/10">
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                1
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Bantas Subak Apit Jaring
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Wayan Masih
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Desa Kuwum, Kec.Marga, Kab. Marga
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                34
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                2
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Bija Subak Apit Jaring
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Nyoman Nitya
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Desa Kuwum, Kec. Marga, Kab. Tabanan
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                39
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                3
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Dajan Tunon Subak Apit Jaring
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Wayan Wibawa
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Desa Kuwum, Kec Marga, Kab. Tabanan
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                24
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                4
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Gunung Subak Apit Jaring
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Ketut Letra
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Desa Kuwum, Kec.Marga, Kab. Tabanan
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                14
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                5
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Jemanik Subak Apit Jaring
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Wayan Jirna
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Desa Kuwum, Kec.Marga, Kec.Marga
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                66
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                6
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Kelompok Tani Werdhi Rahayu
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Ketut Mertaya
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Br. Dinas Kuwum Ancak Bija
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                61
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                7
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Kelompok Ternak - Kembang Sedana
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Wayan Wia
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Br. Dinas Kuwum Mambal
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                42
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                8
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Kelompok Ternak Lembu Sari
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Ketut Sura
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Br Dinas Kuwum Mambal
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                11
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                9
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Kembang Sedana
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Wayan Wia
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Desa Kuwum, Kecamatan Marga
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                25
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                10
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Poktan Banjar Kuwum Anyar
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Wayan Wirawan
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Br. Dinas Kuwum Anyar
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                80
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                11
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Sari Merta
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Desak Made Yuliasmin
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Br.Dinas Kuwum Mambal
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                43
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                12
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Satwa Sari
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Nyoman Kupling
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Banjar Kuwum Mambal, Desa Kuwum, Kec. Marga,
+                                Kab. Tabanan
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                48
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                13
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Satya Prananda
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Nyoman Silik
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Banjar Tegallinggah, Desa Kuwum
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                13
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                14
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Sungga Subak Apit Jaring
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Made Ngaya
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Desa Kuwum, Kec. Marga, Kab Tabanan
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                22
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                15
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Tegal Jimbar Sari
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Wayan Panggil
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Banjar Tegallinggah, Desa Kuwum
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                -
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                16
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Ternak Babi Fauna Sari
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Ayu Devi Mahayanti
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Br.Dinas Kuwum Mambal
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                44
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                17
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Ternak Babi Pengangon Sari
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Putu Adnyana
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Br. Dinas Kuwum Tegallinggah
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                45
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                18
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Uma Anyar Subak Apit Jaring
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Ketut Siarna
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Desa Kuwum, Kec. Marga, Kab. Tabanan
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                52
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                19
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Uma Lode Beduwuran Subak Apit Jaring
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Made Madri
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Desa Kuwum, Kec. Marga, Kab. Tabanan
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                45
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                20
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Uma Lode Betenan Subak Apit Jaring
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Gede Ketut Darma
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Desa Kuwum, Kec. Marga, Kab. Tabanan
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                59
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                21
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Umadiwang Subak Apit Jaring
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Ketut Bakta
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Desa Kuwum, Kec. Marga, Kab. Marga
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                24
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                22
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Umawani Subak Apit Jaring
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                I Wayan Punia
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Desa Kuwum, Kec. Marga, Kab. Tabanan
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                98
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                            <tr className="hover:bg-white/5 transition-colors">
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                23
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Wana Karya Sari
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Ketut Darmadi
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                Banjar Kuwum Mambal, Desa Kuwum
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                -
+                              </td>
+                              <td className="px-4 py-3 text-sm font-thunder">
+                                <span className="text-green-400">Aktif</span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>{" "}
                 </div>
               </div>
             </div>

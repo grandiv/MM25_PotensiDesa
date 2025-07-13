@@ -13,47 +13,36 @@ export default function Peternakan() {
   return (
     <div className="relative w-full bg-[#1d1d21] md:aspect-[1252/557] aspect-[360/1000] lg:aspect-[1920/1044]">
       <div
-        className="relative h-[120vw] md:h-[50vw] lg:h-[47.948vw] w-full bg-[url('https://utfs.io/f/26f12fca-3b38-4c83-b312-04e9bf3f1b30-80p6f0.svg')] md:bg-[url('https://utfs.io/f/c64b28db-4da2-4cd9-90dc-5a442f5c9660-80p6kf.svg')] lg:bg-[url('https://utfs.io/f/814e10fd-cf44-4f84-b6ea-24cfa1cdf188-80p6l7.svg')] rounded-t-[8.889vw] md:rounded-t-[4.167vw] lg:rounded-t-[3.75vw] bg-cover flex justify-center md:justify-start lg:bg-bottom"
+        className="relative h-[120vw] md:h-[50vw] lg:h-[47.948vw] w-full rounded-t-[8.889vw] md:rounded-t-[4.167vw] lg:rounded-t-[3.75vw] bg-cover bg-center flex justify-center md:justify-start"
         data-aos="fade-up"
         data-aos-duration={aosDuration}
         data-aos-delay={getDelay({ turn: 0 })}
       >
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src="/kuwum/peternakan/babi.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <div className="absolute bottom-0 z-[0] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
         <h1 className="absolute top-[10vw] left-[5vw] md:top-[5vw] md:left-[5vw] lg:top-[3vw] lg:left-[3vw] z-[2] font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#B6F500] leading-none drop-shadow-lg bg-white bg-opacity-[1px] backdrop-blur-sm px-[2vw] py-[1vw] pt-2 md:pt-4 lg:pt-8 rounded-[1vw] border border-white/20 flex items-center justify-center">
           PETERNAKAN
         </h1>
       </div>
       <div className="relative w-full flex flex-col md:flex-row md:justify-center">
-        <div className=" -translate-y-[16vw] flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] lg: z-[10000] lg:-translate-y-[24vw] md:hidden">
-          <Image
-            src="/kuwum/pertanian/pertanian.jpg"
-            width={856}
-            height={1024}
-            alt="Picture of the author"
-            className="w-[32vw] h-[38vw] mx-2 md:mx-4 md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-start"
-          />
-          <Image
-            src="/kuwum/pertanian/subak1.jpg"
-            width={856}
-            height={1024}
-            alt="Picture of the author"
-            className="w-[32vw] h-[38vw] md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-center"
-          />
-          <Image
-            src="/kuwum/pertanian/subak2.jpg"
-            width={856}
-            height={1024}
-            alt="Picture of the author"
-            className="w-[32vw] h-[38vw] mx-2 md:mx-4 md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-end"
-          />
-        </div>
-        <div className="border-white border-[0.278vw] border-opacity-20 rounded-[6.667vw] flex flex-col justify-center items-center py-[9.722vw] md:p-[3.646vw] px-[6.667vw] m-[6.667vw] md:m-0 -mt-[13vw] md:-mt-[17 vw] bg-white bg-opacity-[1px] md:py-0 md:h-[23vw] md:w-[45vw] md:rounded-[2.083vw] md:mr-[1.9vw] md:backdrop-blur-lg md:-translate-y-[15vw] md:border-[0.13vw] lg:w-[40vw] lg:h-[12.396vw] lg:flex-row">
+        <div className="border-white border-[0.278vw] border-opacity-20 rounded-[6.667vw] flex flex-col justify-center items-center py-[9.722vw] md:p-[3.646vw] px-[6.667vw] m-[6.667vw] md:m-0 -mt-[13vw] md:-mt-[17 vw] bg-white bg-opacity-[1px] md:py-0 md:h-[23vw] md:w-[45vw] md:rounded-[2.083vw] md:ml-[1.9vw] md:backdrop-blur-lg md:-translate-y-[15vw] md:border-[0.13vw] lg:w-[40vw] lg:h-[12.396vw] lg:flex-row">
           <p className=" font-thunder text-[5vw] text-center md:text-[2.344vw] lg:text-[1.458vw] lg:mr-[3vw] text-white">
-            Menghubungkan Tugu Yogyakarta hingga menjelang kompleks Keraton
-            Yogyakarta, Malioboro menyongsong suasana, karakteristik, dan budaya
-            dari Kota Istimewa Yogyakarta.
+            Memiliki daya tarik unik dalam sektor peternakan dengan tradisi
+            beternak babi dan sapi yang telah mengakar turun-temurun.
+            Keunikannya terletak pada sistem pemeliharaan tradisional Bali,
+            menghasilkan produk berkualitas tinggi untuk memenuhi kebutuhan
+            upacara adat dan konsumsi masyarakat lokal.
           </p>
-          <Button
+          {/* <Button
             variant="kuwum"
             size="kuwum"
             onClick={() => setShowModal(true)}
@@ -72,35 +61,29 @@ export default function Peternakan() {
                 className="w-[3vw] sm:w-[3.5vw] md:w-[1.8vw] lg:w-[1.2vw] h-auto flex-shrink-0"
               />
             </div>
-          </Button>
+          </Button> */}
         </div>
-        <div className=" -translate-y-[16vw] md:flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] z-[10000] lg:-translate-y-[23vw] hidden">
+        <div className="-translate-y-[16vw] flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] lg:z-[10000] lg:-translate-y-[24vw] px-[4vw] md:px-0">
           <Image
-            src={
-              "https://utfs.io/f/83dcb27e-f40c-4c8f-bcd0-3b73f06a85f9-j75j84.svg"
-            }
-            width={1}
-            height={1}
+            src="/kuwum/peternakan/peternakbabicard.png"
+            width={856}
+            height={1024}
             alt="Picture of the author"
-            className="w-[32vw] md:w-[14vw] self-end"
+            className="w-[32vw] h-[38vw] mx-2 md:mx-4 md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-start"
           />
           <Image
-            src={
-              "https://utfs.io/f/77063df7-e4d4-4ecc-8c6e-4624e6533c87-j75j83.svg"
-            }
-            width={1}
-            height={1}
+            src="/kuwum/peternakan/sapi.jpg"
+            width={856}
+            height={1024}
             alt="Picture of the author"
-            className="w-[32vw] md:w-[14vw] self-center"
+            className="w-[32vw] h-[38vw] md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-center"
           />
           <Image
-            src={
-              "https://utfs.io/f/7d1b9f27-f7b3-4d01-b377-314988a8c35a-j75j82.svg"
-            }
-            width={1}
-            height={1}
+            src="/kuwum/peternakan/sapipic3.png"
+            width={856}
+            height={1024}
             alt="Picture of the author"
-            className="w-[32vw] md:w-[14vw] self-start"
+            className="w-[32vw] h-[38vw] mx-2 md:mx-4 md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-end"
           />
         </div>
       </div>
