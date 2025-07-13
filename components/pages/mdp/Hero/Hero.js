@@ -29,7 +29,7 @@ export default function Hero() {
         loop
         muted
         playsInline
-        className="absolute top-0 left-0 w-full sh-full object-cover z-0"
+        className="absolute top-0 left-0 w-full h-full object-cover z-0"
       >
         <source src="/mdp/drone/hero.mp4" type="video/mp4" />
         {/* Fallback for browsers that don't support video */}
@@ -41,7 +41,7 @@ export default function Hero() {
 
       <div className="absolute bottom-0 z-[2000] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[6vw]"></div>
       <h1
-        className="font-thunderbold text-[24.444vw] md:text-[21.875vw] lg:text-[15.104vw] text-[#ffffff] z-[3000] leading-none relative"
+        className="font-thunderbold text-[24.444vw] md:text-[21.875vw] lg:text-[15.104vw] text-[#FFFFFF] z-[3000] leading-none relative"
         data-aos="fade-up"
         data-aos-duration={aosDuration}
         data-aos-delay={getDelay({ turn: 0 })}
