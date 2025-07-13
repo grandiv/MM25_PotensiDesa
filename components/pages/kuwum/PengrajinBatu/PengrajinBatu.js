@@ -18,47 +18,31 @@ export default function PengrajinBatu() {
         data-aos-duration={aosDuration}
         data-aos-delay={getDelay({ turn: 0 })}
       >
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src="/kuwum/pengrajinbatu/coverbatu.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <div className="absolute bottom-0 z-[0] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
         <h1 className="absolute top-[10vw] left-[5vw] md:top-[5vw] md:left-[5vw] lg:top-[3vw] lg:left-[3vw] z-[2] font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#B6F500] leading-none drop-shadow-lg bg-white bg-opacity-[1px] backdrop-blur-sm px-[2vw] py-[1vw] pt-2 md:pt-4 lg:pt-8 rounded-[1vw] border border-white/20 flex items-center justify-center">
-          PENGRAJIN BATU
+          KERAJINAN BATU
         </h1>
       </div>
       <div className="relative w-full flex flex-col md:flex-row md:justify-center">
-        <div className=" -translate-y-[16vw] flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] lg: z-[10000] lg:-translate-y-[24vw]">
-          <Image
-            src={
-              "https://utfs.io/f/ce604019-fb7c-4395-8c88-0e4b4664f0bf-p1g02r.svg"
-            }
-            width={1}
-            height={1}
-            alt="Picture of the author"
-            className="w-[32vw] md:w-[14vw] self-start"
-          />
-          <Image
-            src={
-              "https://utfs.io/f/872cb5cf-836a-470e-a9bc-bdfe4a393670-p1g02q.svg"
-            }
-            width={1}
-            height={1}
-            alt="Picture of the author"
-            className="w-[32vw] md:w-[14vw] self-center"
-          />
-          <Image
-            src={
-              "https://utfs.io/f/97ef6630-ff08-4477-8d21-a70465bcc532-p1g02p.svg"
-            }
-            width={1}
-            height={1}
-            alt="Picture of the author"
-            className="w-[32vw] md:w-[14vw] self-end"
-          />
-        </div>
         <div className="border-white border-[0.278vw] border-opacity-20 rounded-[6.667vw] flex flex-col justify-center items-center py-[9.722vw] md:p-[3.646vw] px-[6.667vw] m-[6.667vw] md:m-0 -mt-[13vw] md:-mt-[17 vw] bg-white bg-opacity-[1px] md:py-0 md:h-[23vw] md:w-[45vw] md:rounded-[2.083vw] md:ml-[1.9vw] md:backdrop-blur-lg md:-translate-y-[15vw] md:border-[0.13vw] lg:w-[40vw] lg:h-[12.396vw] lg:flex-row">
           <p className="text-white font-thunder text-[5vw] text-center md:text-[2.344vw] lg:text-[1.458vw] lg:mr-[3vw]">
-            Istana resmi Kesultanan Ngayogyakarta Hadiningrat dan merupakan
-            salah satu contoh arsitektur istana Jawa yang terbaik.
+            Desa Kuwum memiliki tradisi kerajinan batu dari pengrajin setempat
+            yang mengolah batu alam menjadi karya seni berkualitas tinggi
+            seperti patung, relief, dan ornamen arsitektur yang biasanya
+            digunakan di tempat-tempat ibadah. Dengan harga yang bervariasi
+            mulai dari 1 juta hingga 10 juta.
           </p>
-          <Button
+          {/* <Button
             variant="kuwum"
             size="kuwum"
             onClick={() => setShowModal(true)}
@@ -77,7 +61,30 @@ export default function PengrajinBatu() {
                 className="w-[3vw] sm:w-[3.5vw] md:w-[1.8vw] lg:w-[1.2vw] h-auto flex-shrink-0"
               />
             </div>
-          </Button>
+          </Button> */}
+        </div>
+        <div className="-translate-y-[16vw] flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] lg:z-[10000] lg:-translate-y-[24vw] px-[4vw] md:px-0">
+          <Image
+            src="/kuwum/pengrajinbatu/1.jpg"
+            width={856}
+            height={1024}
+            alt="Picture of the author"
+            className="w-[32vw] h-[38vw] mx-2 md:mx-4 md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-start"
+          />
+          <Image
+            src="/kuwum/pengrajinbatu/2.jpg"
+            width={856}
+            height={1024}
+            alt="Picture of the author"
+            className="w-[32vw] h-[38vw] md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-center"
+          />
+          <Image
+            src="/kuwum/pengrajinbatu/3.jpg"
+            width={856}
+            height={1024}
+            alt="Picture of the author"
+            className="w-[32vw] h-[38vw] mx-2 md:mx-4 md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-end"
+          />
         </div>
       </div>
       <>
