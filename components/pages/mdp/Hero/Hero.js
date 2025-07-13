@@ -29,9 +29,9 @@ export default function Hero() {
         loop
         muted
         playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        className="absolute top-0 left-0 w-full sh-full object-cover z-0"
       >
-        <source src="/mdp/drone/hero.MP4" type="video/mp4" />
+        <source src="/mdp/drone/hero.mp4" type="video/mp4" />
         {/* Fallback for browsers that don't support video */}
         Your browser does not support the video tag.
       </video>
