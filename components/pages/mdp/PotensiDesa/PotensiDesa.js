@@ -88,7 +88,7 @@ export default function ProfilDesa() {
           />
           {/* Gambar kedua tetap self-center */}
           <Image
-            src="/mdp/potensidesa/potensi2.jpg"
+            src="/mdp/potensidesa/potensi2.JPG"
             width={856}
             height={1024}
             alt="Gambar penulis"
@@ -96,7 +96,7 @@ export default function ProfilDesa() {
           />
           {/* Gambar ketiga (sebelumnya self-end) sekarang self-start */}
           <Image
-            src="/mdp/potensidesa/potensi3.jpg"
+            src="/mdp/potensidesa/potensi3.JPG"
             width={856}
             height={1024}
             alt="Gambar penulis"
