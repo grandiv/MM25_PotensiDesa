@@ -31,7 +31,7 @@ export default function Hero() {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       >
-        <source src="/mdp/drone/hero.MP4" type="video/MP4" />
+        <source src="/mdp/drone/hero.MP4" type="video/mp4" />
         {/* Fallback for browsers that don't support video */}
         Your browser does not support the video tag.
       </video>
