@@ -46,7 +46,7 @@ export default function ProfilDesa() {
         <div className="-translate-y-[16vw] flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] lg:z-[10000] lg:-translate-y-[24vw] px-[4vw] md:px-0">
           {/* Smaller images with drop shadow for contrast */}
           <Image
-            src="/mdp/profildesa/pic3.jpg"
+            src="/mdp/profildesa/pic3.JPG"
             width={856}
             height={1024}
             alt="Picture of the author"
@@ -60,7 +60,7 @@ export default function ProfilDesa() {
             className="w-[32vw] h-[38vw] md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-center"
           />
           <Image
-            src="/mdp/profildesa/pic1.jpg"
+            src="/mdp/profildesa/pic1.JPG"
             width={856}
             height={1024}
             alt="Picture of the author"
