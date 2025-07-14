@@ -152,7 +152,7 @@ export default function Pertanian() {
                             </tr>
                           </thead>
                           <tbody className="divide-y divide-white/10">
-                            <tr className="hover:bg-white/5 transition-colors">
+                            {/* <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
                                 1
                               </td>
@@ -171,10 +171,10 @@ export default function Pertanian() {
                               <td className="px-4 py-3 text-sm font-thunder">
                                 <span className="text-green-400">Aktif</span>
                               </td>
-                            </tr>
+                            </tr> */}
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                2
+                                1
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Bija Subak Apit Jaring
@@ -194,7 +194,7 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                3
+                                2
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Dajan Tunon Subak Apit Jaring
@@ -214,7 +214,7 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                4
+                                3
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Gunung Subak Apit Jaring
@@ -234,7 +234,7 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                5
+                                4
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Jemanik Subak Apit Jaring
@@ -254,7 +254,7 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                6
+                                5
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Kelompok Tani Werdhi Rahayu
@@ -274,13 +274,13 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                7
+                                6
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Kelompok Ternak - Kembang Sedana
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
-                                I Wayan Wia
+                                I Wayan Wiyasa
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Br. Dinas Kuwum Mambal
@@ -294,7 +294,7 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                8
+                                7
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Kelompok Ternak Lembu Sari
@@ -312,15 +312,15 @@ export default function Pertanian() {
                                 <span className="text-green-400">Aktif</span>
                               </td>
                             </tr>
-                            <tr className="hover:bg-white/5 transition-colors">
+                            {/* <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                9
+                                8
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Kembang Sedana
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
-                                I Wayan Wia
+                                I Wayan Wiyasa
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Desa Kuwum, Kecamatan Marga
@@ -331,10 +331,10 @@ export default function Pertanian() {
                               <td className="px-4 py-3 text-sm font-thunder">
                                 <span className="text-green-400">Aktif</span>
                               </td>
-                            </tr>
+                            </tr> */}
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                10
+                                8
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Poktan Banjar Kuwum Anyar
@@ -354,7 +354,7 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                11
+                                9
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Sari Merta
@@ -374,7 +374,7 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                12
+                                10
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Satwa Sari
@@ -395,7 +395,7 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                13
+                                11
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Satya Prananda
@@ -415,7 +415,7 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                14
+                                12
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Sungga Subak Apit Jaring
@@ -435,7 +435,7 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                15
+                                13
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Tegal Jimbar Sari
@@ -455,7 +455,7 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                16
+                                14
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Ternak Babi Fauna Sari
@@ -475,7 +475,7 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                17
+                                15
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Ternak Babi Pengangon Sari
@@ -495,13 +495,13 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                18
+                                16
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Uma Anyar Subak Apit Jaring
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
-                                I Ketut Siarna
+                                I Ketut Siana
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Desa Kuwum, Kec. Marga, Kab. Tabanan
@@ -515,7 +515,7 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                19
+                                17
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Uma Lode Beduwuran Subak Apit Jaring
@@ -535,7 +535,7 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                20
+                                18
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Uma Lode Betenan Subak Apit Jaring
@@ -555,7 +555,7 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                21
+                                19
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Umadiwang Subak Apit Jaring
@@ -575,7 +575,7 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                22
+                                20
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Umawani Subak Apit Jaring
@@ -595,7 +595,7 @@ export default function Pertanian() {
                             </tr>
                             <tr className="hover:bg-white/5 transition-colors">
                               <td className="px-4 py-3 text-sm font-thunder">
-                                23
+                                21
                               </td>
                               <td className="px-4 py-3 text-sm font-thunder">
                                 Wana Karya Sari

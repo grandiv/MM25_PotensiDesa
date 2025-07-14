@@ -139,14 +139,14 @@ export default function Banjar() {
                 </div>
 
                 {/* Population */}
-                <div className="text-center">
+                {/* <div className="text-center">
                   <p className="font-thundermedium text-[3vw] md:text-[2vw] lg:text-[0.9vw] text-white/60 mb-[1vw] md:mb-[0.5vw] lg:mb-[0.3vw]">
                     Jumlah KK
                   </p>
                   <p className="font-thunder text-[3.5vw] md:text-[2.2vw] lg:text-[1vw] text-[#B6F500] font-semibold">
                     {banjar.population}
                   </p>
-                </div>
+                </div> */}
 
                 {/* Description */}
                 <CardDescription className="font-thunder text-[3vw] md:text-[1.8vw] lg:text-[0.85vw] text-white/60 text-center leading-relaxed">
