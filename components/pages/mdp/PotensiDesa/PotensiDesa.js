@@ -27,7 +27,10 @@ export default function ProfilDesa() {
           muted
           playsInline
         >
-          <source src="/mdp/potensidesa/potensibg.mp4" type="video/mp4" />
+          <source
+            src="https://res.cloudinary.com/dxemwgyjz/video/upload/v1753511401/potensibg_i51sbj.mp4"
+            type="video/mp4"
+          />
           Your browser does not support the video tag.
         </video>
 
@@ -80,7 +83,7 @@ export default function ProfilDesa() {
         <div className="-translate-y-[1vw] flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] lg:z-[10000] lg:-translate-y-[25vw] px-[4vw] md:px-0">
           {/* Gambar pertama (sebelumnya self-start) sekarang self-end */}
           <Image
-            src="/mdp/potensidesa/potensi1.jpg"
+            src="https://res.cloudinary.com/dxemwgyjz/image/upload/v1753511040/potensi3_kclpyp.jpg"
             width={856}
             height={1024}
             alt="Gambar penulis"
@@ -88,7 +91,7 @@ export default function ProfilDesa() {
           />
           {/* Gambar kedua tetap self-center */}
           <Image
-            src="/mdp/potensidesa/potensi2.JPG"
+            src="https://res.cloudinary.com/dxemwgyjz/image/upload/v1753511039/potensi1_mojmqx.jpg"
             width={856}
             height={1024}
             alt="Gambar penulis"
@@ -96,7 +99,7 @@ export default function ProfilDesa() {
           />
           {/* Gambar ketiga (sebelumnya self-end) sekarang self-start */}
           <Image
-            src="/mdp/potensidesa/potensi3.JPG"
+            src="https://res.cloudinary.com/dxemwgyjz/image/upload/v1753511039/potensi2_lhygdm.jpg"
             width={856}
             height={1024}
             alt="Gambar penulis"

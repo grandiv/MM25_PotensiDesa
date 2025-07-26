@@ -27,7 +27,10 @@ export default function ProfilDesa() {
           muted
           playsInline
         >
-          <source src="/mdp/profildesa/profildesaa.mp4" type="video/mp4" />
+          <source
+            src="https://res.cloudinary.com/dxemwgyjz/video/upload/v1753511363/profildesaa_ut2g22.mp4"
+            type="video/mp4"
+          />
           Your browser does not support the video tag.
         </video>
 
@@ -46,21 +49,21 @@ export default function ProfilDesa() {
         <div className="-translate-y-[16vw] flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] lg:z-[10000] lg:-translate-y-[24vw] px-[4vw] md:px-0">
           {/* Smaller images with drop shadow for contrast */}
           <Image
-            src="/mdp/profildesa/pic3.JPG"
+            src="https://res.cloudinary.com/dxemwgyjz/image/upload/v1753510997/pic1_nniw3x.jpg"
             width={856}
             height={1024}
             alt="Picture of the author"
             className="w-[32vw] h-[38vw] mx-2 md:mx-4 md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-end"
           />
           <Image
-            src="/mdp/profildesa/pic2.JPG"
+            src="https://res.cloudinary.com/dxemwgyjz/image/upload/v1753510996/pic2_bcunyc.jpg"
             width={856}
             height={1024}
             alt="Picture of the author"
             className="w-[32vw] h-[38vw] md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-center"
           />
           <Image
-            src="/mdp/profildesa/pic1.JPG"
+            src="https://res.cloudinary.com/dxemwgyjz/image/upload/v1753510997/pic3_osu5gr.jpg"
             width={856}
             height={1024}
             alt="Picture of the author"
@@ -88,14 +91,12 @@ export default function ProfilDesa() {
                   "
           >
             Marga Dauh Puri adalah desa di kecamatan Marga, Kabupaten Tabanan,
-            provinsi Bali, Indonesia. Desa ini memiliki luas sekitar 2,23 km²
-            dengan jumlah penduduk di angka 2.194 jiwa(2016]. Pemandangan dari
-            Desa Marga Dauh Puri sangat menawan dengan campuran antara bangunan
-            adat serta sawah-sawah yang masih asri dan hijau. Dengan wilayah
-            yang berada di dataran tinggi, udara yang ada di desa ini sangatlah
-            bersih dan asri. Selain itu, adanya landscape yang terdiri dari
-            sawah dan hijau-hijauan lainnya membuat tempat ini sangatlah nyaman
-            ditinggali.
+            provinsi Bali, Indonesia. Desa ini memiliki luas sekitar 227 hektar
+            dengan jumlah penduduk di angka 2.094 jiwa(2024]. Desa Marga Dauh
+            Puri memiliki beberapa potensi wisata dan daerah, seperti misalnya
+            UMKM yang berjalan dengan baik dan dibantu oleh perangkat desa,
+            serta Taman Pujaan Bangsa Margarana, yang merupakan makam dari I
+            Gusti Ngurah Rai.
           </p>
           {/* The "LIHAT LEBIH" button is removed */}
         </div>
