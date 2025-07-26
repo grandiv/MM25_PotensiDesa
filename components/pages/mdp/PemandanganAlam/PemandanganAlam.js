@@ -28,7 +28,7 @@ export default function PemandanganAlam() {
           playsInline
         >
           <source
-            src="/mdp/pemandanganalam/pemandanganbg.mp4"
+            src="https://res.cloudinary.com/dxemwgyjz/video/upload/v1753511378/pemandanganbg_px9xtl.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.
@@ -49,24 +49,26 @@ export default function PemandanganAlam() {
         <div className="-translate-y-[16vw] flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] lg:z-[10000] lg:-translate-y-[24vw] px-[4vw] md:px-0">
           {/* Smaller images with drop shadow for contrast */}
           <Image
-            src="/mdp/pemandanganalam/pem1.png"
+            src="https://res.cloudinary.com/dxemwgyjz/image/upload/v1753511011/pem1_rqkpor.png"
             width={856}
             height={1024}
-            alt="Picture of the author"
+            alt="Gambar penulis"
             className="w-[32vw] h-[38vw] mx-2 md:mx-4 md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-end"
           />
+          {/* Gambar kedua tetap self-center */}
           <Image
-            src="/mdp/pemandanganalam/pem2.png"
+            src="https://res.cloudinary.com/dxemwgyjz/image/upload/v1753511011/pem2_ixepxv.png"
             width={856}
             height={1024}
-            alt="Picture of the author"
+            alt="Gambar penulis"
             className="w-[32vw] h-[38vw] md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-center"
           />
+          {/* Gambar ketiga (sebelumnya self-end) sekarang self-start */}
           <Image
-            src="/mdp/pemandanganalam/pem3.png"
+            src="https://res.cloudinary.com/dxemwgyjz/image/upload/v1753512761/pemnew_skvckp.png"
             width={856}
             height={1024}
-            alt="Picture of the author"
+            alt="Gambar penulis"
             className="w-[32vw] h-[38vw] mx-2 md:mx-4 md:w-[14vw] md:h-[16.8vw] lg:w-[14vw] lg:h-[16.8vw] object-cover rounded-[2vw] md:rounded-[1vw] lg:rounded-[0.5vw] shadow-2xl drop-shadow-xl self-start"
           />
         </div>

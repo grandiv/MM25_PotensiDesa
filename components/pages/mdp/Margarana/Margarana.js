@@ -27,7 +27,10 @@ export default function Margarana() {
           muted
           playsInline
         >
-          <source src="/mdp/margarana/margaranabg.mp4" type="video/mp4" />
+          <source
+            src="https://res.cloudinary.com/dxemwgyjz/video/upload/v1753511393/margaranabg_giefnj.mp4"
+            type="video/mp4"
+          />
           Your browser does not support the video tag.
         </video>
 
@@ -79,7 +82,7 @@ export default function Margarana() {
         <div className="-translate-y-[1vw] flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] lg:z-[10000] lg:-translate-y-[25vw] px-[4vw] md:px-0">
           {/* Gambar pertama (sebelumnya self-start) sekarang self-end */}
           <Image
-            src="/mdp/margarana/marg1.JPG"
+            src="https://res.cloudinary.com/dxemwgyjz/image/upload/v1753511029/marg1_pg1wzb.jpg"
             width={856}
             height={1024}
             alt="Gambar penulis"
@@ -87,7 +90,7 @@ export default function Margarana() {
           />
           {/* Gambar kedua tetap self-center */}
           <Image
-            src="/mdp/margarana/marg2.JPG"
+            src="https://res.cloudinary.com/dxemwgyjz/image/upload/v1753511029/marg2_jsofnz.jpg"
             width={856}
             height={1024}
             alt="Gambar penulis"
@@ -95,7 +98,7 @@ export default function Margarana() {
           />
           {/* Gambar ketiga (sebelumnya self-end) sekarang self-start */}
           <Image
-            src="/mdp/margarana/marg3.png"
+            src="https://res.cloudinary.com/dxemwgyjz/image/upload/v1753511030/marg3_rsftks.png"
             width={856}
             height={1024}
             alt="Gambar penulis"

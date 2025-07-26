@@ -31,7 +31,10 @@ export default function Hero() {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       >
-        <source src="/mdp/drone/hero.mp4" type="video/mp4" />
+        <source
+          src="https://res.cloudinary.com/dxemwgyjz/video/upload/v1753511375/hero_oc8mkh.mp4"
+          type="video/mp4"
+        />
         {/* Fallback for browsers that don't support video */}
         Your browser does not support the video tag.
       </video>
