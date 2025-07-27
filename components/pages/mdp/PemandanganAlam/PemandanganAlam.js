@@ -86,10 +86,10 @@ export default function PemandanganAlam() {
         >
           <p
             className="font-thunder
-                  text-[5vw] text-center                               /* Text centered within its own width */
+                  text-[5vw] text-center tracking-wide                            
                   md:text-[2.344vw] lg:text-[1.458vw]
-                  w-full                                               /* Ensure paragraph takes full width of its flex item */
-                  text-white                                           /* Ensure text color is white for contrast */
+                  w-full                                            
+                  text-white                                         
                   "
           >
             Pemandangan dari Desa Marga Dauh Puri sangat menawan dengan campuran
