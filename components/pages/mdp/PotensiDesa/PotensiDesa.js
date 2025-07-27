@@ -63,7 +63,7 @@ export default function ProfilDesa() {
         >
           <p
             className="font-thunder
-                  text-[5vw] text-center                               /* Text centered within its own width */
+                  text-[5vw] text-center tracking-wide                             /* Text centered within its own width */
                   md:text-[2.344vw] lg:text-[1.458vw]
                   w-full                                               /* Ensure paragraph takes full width of its flex item */
                   text-white                                           /* Ensure text color is white for contrast */

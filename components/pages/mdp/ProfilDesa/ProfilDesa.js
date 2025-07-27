@@ -84,14 +84,14 @@ export default function ProfilDesa() {
         >
           <p
             className="font-thunder
-                  text-[5vw] text-center                               /* Text centered within its own width */
+                  text-[5vw] text-center tracking-wide                            /* Text centered within its own width */
                   md:text-[2.344vw] lg:text-[1.458vw]
                   w-full                                               /* Ensure paragraph takes full width of its flex item */
                   text-white                                           /* Ensure text color is white for contrast */
                   "
           >
-            Marga Dauh Puri adalah desa di kecamatan Marga, Kabupaten Tabanan,
-            provinsi Bali, Indonesia. Desa ini memiliki luas sekitar 227 hektar
+            Marga Dauh Puri adalah desa di Kecamatan Marga, Kabupaten Tabanan,
+            Provinsi Bali, Indonesia. Desa ini memiliki luas sekitar 227 hektar
             dengan jumlah penduduk di angka 2.094 jiwa(2024]. Desa Marga Dauh
             Puri memiliki beberapa potensi wisata dan daerah, seperti misalnya
             UMKM yang berjalan dengan baik dan dibantu oleh perangkat desa,
