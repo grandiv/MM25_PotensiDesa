@@ -58,7 +58,7 @@ export default function PengrajinKayu() {
           />
         </div>
         <div className="border-white border-[0.278vw] border-opacity-20 rounded-[6.667vw] flex flex-col justify-center items-center py-[9.722vw] md:p-[3.646vw] px-[6.667vw] m-[6.667vw] md:m-0 -mt-[13vw] md:-mt-[17 vw] bg-white bg-opacity-[1px] md:py-0 md:h-[23vw] md:w-[45vw] md:rounded-[2.083vw] md:ml-[1.9vw] md:backdrop-blur-lg md:-translate-y-[15vw] md:border-[0.13vw] lg:w-[40vw] lg:h-[12.396vw] lg:flex-row">
-          <p className="text-white tracking-wide font-thunder text-[5vw] text-center md:text-[2.344vw] lg:text-[1.458vw] lg:mr-[3vw]">
+          <p className="text-white tracking-normal font-thunder text-[5vw] text-center md:text-[2.344vw] lg:text-[1.458vw] lg:mr-[3vw]">
             Kerajinan kayu Cempaka yang banyak dipakai untuk aksesoris
             sanggah/pura dan tempat ibadah. Para pengrajin lokal menciptakan
             karya seni yang diekspor ke luar pulau hingga luar negeri. Pengrajin
